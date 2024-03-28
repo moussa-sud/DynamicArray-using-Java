@@ -4,16 +4,19 @@ import java.util.Arrays;
 
 public class DynamicArray {
 	
-	int[] data ; 
+	int[] data ; // Declares an array of integers
 	int size ;
 	
 	public DynamicArray() {
-		// for the initial value we put 1 in the array
 		
-		data = new int[1];
+	
+		// we declares an array of integers with size 1
+		
+		data = new int[1]; 
 		size = 1 ;
 	} 
 	
+	// obvious 
 	
 	public int get(int index ) {
 		
@@ -21,12 +24,12 @@ public class DynamicArray {
 		
 	}
 	
-	public void retrieveData(int index) {
+	public void retrieveData() {
 		
 		
 		for (int i = 0; i < data.length; i++) {
 			
-			System.out.println(data[i]);
+			System.out.println("in the index "+i+ " the value is "+data[i]);
 			
 		}
 		

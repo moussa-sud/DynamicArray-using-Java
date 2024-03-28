@@ -12,6 +12,8 @@ public class Main {
 		Array.put(22);
 		
 		System.out.println(Array.get(1));
+		
+		Array.retrieveData();
 
 	}
 
